@@ -9,7 +9,6 @@ import { createPost, updatePost } from '../../actions/posts';
 
 //GET THE CURRENT ID 
 
-
 const Form = ({ currentId, setCurrentId }) => {
     const [postData, setPostData] = useState({ creator: '', title: '', message: '', tags: '', selectedFile: '' });
     

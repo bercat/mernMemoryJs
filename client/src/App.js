@@ -9,7 +9,6 @@ import { getPosts } from './actions/posts';
 import memories from './images/memories.jpeg';
 import useStyles from './styles';
 
-
 const App = () => {
     const [currentId, setCurrentId] = useState(0);
     const dispatch = useDispatch();
